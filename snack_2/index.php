@@ -20,9 +20,9 @@ Con un form passare come parametri GET name, mail e age e verificare (cercando i
   <label for="name">Nome:</label>
 	<input type="text" name="name" id="name"><br>
 	<label for="mail">Email:</label>
-	<input type="email" name="mail" id="mail"><br>
+	<input type="text" name="mail" id="mail"><br>
 	<label for="age">Età:</label>
-	<input type="number" name="age" id="age"><br>
+	<input type="text" name="age" id="age"><br>
 	<button type="submit">Accedi</button>
 </form>
 
