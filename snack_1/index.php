@@ -7,11 +7,10 @@ Olimpia Milano - Cantù | 55-60
 
 $matches = [
   ["Olimpia Milano", "Cantù", 55, 60],
-  ["Virtus Bologna", "Bologna", 70, 70],
+  ["Virtus Bologna", "Genova", 70, 70],
   ["Firenze", "Torino", 62, 75],
   ["Virtus Roma", "Venezia", 68, 83]
 ];
-
 
 ?>
 
@@ -25,5 +24,14 @@ $matches = [
 </head>
 <body>
   
+
+
+<?php
+
+foreach ($matches as $match) : ?>
+<p><?= $match[0] . " - " . $match[1] . " | " . $match[2] . "-" . $match[3]; ?> </p>
+<?php endforeach; ?>
+
+
 </body>
 </html>
